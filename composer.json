@@ -1,0 +1,15 @@
+{
+    "name": "klaus/webzeug",
+    "description": "Startseite der Domain www.webzeug.net",
+    "type": "project",
+    "require": {
+        "twbs/bootstrap": "^4.3",
+        "components/jquery": "^3.4"
+    },
+    "authors": [
+        {
+            "name": "Klaus Hörmann-Engl",
+            "email": "hoermann.klaus@gmail.com"
+        }
+    ]
+}
