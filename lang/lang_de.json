@@ -7,11 +7,18 @@
         "cards": {
             "klaus": {
                 "header": "Über mich",
-                "text": "Hier könnt ihr etwas mehr über mich erfahren. Was mich interessiert und über meine Projekte."
+                "text": "Hier könnt ihr etwas mehr über mich erfahren. Was mich interessiert und über meine Projekte.",
+                "title": "Mehr über mich erfahren"
             },
             "rechnen": {
                 "header": "Mathe Arbeitsblätter",
-                "text": "Mit Hilfe dieser Applikation könnt Ihr Mathe Arbeitsblätter für die 4 Grundrechnungsarten erstellen. Super wenn Ihr Volksschulkinder habt."
+                "text": "Mit Hilfe dieser Applikation könnt Ihr Mathe Arbeitsblätter für die 4 Grundrechnungsarten erstellen. Super wenn Ihr Volksschulkinder habt.",
+                "title": "Mathe Arbeitsblätter erstellen"
+            },
+            "piviz": {
+                "header": "Visualisierung von PI",
+                "text": "Hier könnt ihr eine einfache farbige Visualisierung von PI sehen",
+                "title": "Visualisierung von PI"
             }
         }
     }

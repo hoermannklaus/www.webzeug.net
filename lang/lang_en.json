@@ -7,11 +7,18 @@
         "cards": {
             "klaus": {
                 "header": "About me",
-                "text": "Here you can lear more about me. What my interests are and the projects I participated or developed."
+                "text": "Here you can lear more about me. What my interests are and the projects I participated or developed.",
+                "title": "More about myself"
             },
             "rechnen": {
                 "header": "Math worksheets",
-                "text": "With help of this application you can generate math worksheets for the 4 basic arthmical operations. Greate when you have children in school."
+                "text": "With help of this application you can generate math worksheets for the 4 basic arthmical operations. Greate when you have children in school.",
+                "title": "Generate math worksheets"
+            },
+            "piviz": {
+                "header": "Visualization of PI",
+                "text": "This is a simple colorful visualization of the first 1003 digits of PI",
+                "title": "Color visualization of PI"
             }
         }
     }
