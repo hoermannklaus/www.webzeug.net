@@ -4,7 +4,8 @@
     "type": "project",
     "require": {
         "twbs/bootstrap": "^4.3",
-        "components/jquery": "^3.4"
+        "components/jquery": "^3.4",
+        "philipp15b/php-i18n": "^4.0"
     },
     "authors": [
         {
