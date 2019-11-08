@@ -17,8 +17,13 @@
             },
             "piviz": {
                 "header": "Visualization of PI",
-                "text": "This is a simple colorful visualization of the first 1003 digits of PI",
+                "text": "This is a simple colorful visualization of the first 1003 digits of PI.",
                 "title": "Color visualization of PI"
+            },
+            "youtube": {
+                "header": "My Youtube channel",
+                "text": "I'm not a Youtuber, but from time to time I make a video.",
+                "title": "My Youtube videos"
             }
         }
     }

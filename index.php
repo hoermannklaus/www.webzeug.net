@@ -11,6 +11,7 @@ $language = $i18n->getAppliedLang();
 <!DOCTYPE html>
 <html>
 <head>
+    <?php require_once('./assets/partials/gtmHead.php'); ?>
     <meta charset="UTF-8">
     <title><?php echo L::domain . " - " . L::appTitle; ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
@@ -21,6 +22,7 @@ $language = $i18n->getAppliedLang();
     <script src="external/fontawesome5/all.js"></script>
 </head>
 <body>
+    <?php require_once('./assets/partials/gtmBody.php'); ?>
     <div class="container">
         <div class="row">
             <div class="col">
@@ -82,9 +84,20 @@ $language = $i18n->getAppliedLang();
                             </small>
                         </div>
                     </div>
-                    <!-- MyDailyLog -->
+                    <!-- Youtube -->
                     <div class="card">
-                        MORE COMING SOON!!
+                        <a href="https://www.youtube.com/channel/UCFgFHKwM1xvTp7vLoz91d1g" target="_blank" title="<?php echo L::startpage_cards_youtube_title; ?>">
+                            <img src="assets/images/youtube.png" class="card-img-top" alt="Farbige Punkte" />
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title text-primary"><?php echo L::startpage_cards_youtube_header; ?></h5>
+                            <p class="card-text"><?php echo L::startpage_cards_youtube_text; ?></p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">
+                                <a href="https://www.youtube.com/channel/UCFgFHKwM1xvTp7vLoz91d1g" target="_blank" title="<?php echo L::startpage_cards_youtube_title; ?>">https://www.youtube.com/</a>
+                            </small>
+                        </div>
                     </div>
                 </div>
             </div>
