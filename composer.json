@@ -1,16 +1,20 @@
 {
-    "name": "klaus/webzeug",
+    "name": "klaus/www.webzeug.net",
     "description": "Startseite der Domain www.webzeug.net",
     "type": "project",
-    "require": {
-        "twbs/bootstrap": "^4.3",
-        "components/jquery": "^3.4",
-        "philipp15b/php-i18n": "^4.0"
-    },
+    "license": "no",
     "authors": [
         {
             "name": "Klaus Hörmann-Engl",
             "email": "hoermann.klaus@gmail.com"
         }
-    ]
+    ],
+    "require": {
+        "twbs/bootstrap": "^4.3",
+        "components/jquery": "^3.4",
+        "philipp15b/php-i18n": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {"WwwWebzeugNet\\": "src/"}
+    }
 }
