@@ -1,0 +1,18 @@
+{
+    "domain": "webzeug.net",
+    "appTitle": "Website of Klaus Hörmann-Engl",
+    "startpage": {
+        "header": "Welcome to webzeug.net",
+        "introtext": "My name is <strong>Klaus Hörmann-Engl</strong>. I am web developer, and this is my <strong>Web Zeug</strong> (web stuff).",
+        "cards": {
+            "klaus": {
+                "header": "About me",
+                "text": "Here you can lear more about me. What my interests are and the projects I participated or developed."
+            },
+            "rechnen": {
+                "header": "Math worksheets",
+                "text": "With help of this application you can generate math worksheets for the 4 basic arthmical operations. Greate when you have children in school."
+            }
+        }
+    }
+}

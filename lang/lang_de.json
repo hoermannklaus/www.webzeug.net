@@ -1,0 +1,18 @@
+{
+    "domain": "webzeug.net",
+    "appTitle": "Die Website von Klaus Hörmann-Engl",
+    "startpage": {
+        "header": "Willkommen auf webzeug.net",
+        "introtext": "Mein Name ist <strong>Klaus Hörmann-Engl</strong>. Ich bin Webentwickler, und das ist mein <strong>Web Zeug</strong>.",
+        "cards": {
+            "klaus": {
+                "header": "Über mich",
+                "text": "Hier könnt ihr etwas mehr über mich erfahren. Was mich interessiert und über meine Projekte."
+            },
+            "rechnen": {
+                "header": "Mathe Arbeitsblätter",
+                "text": "Mit Hilfe dieser Applikation könnt Ihr Mathe Arbeitsblätter für die 4 Grundrechnungsarten erstellen. Super wenn Ihr Volksschulkinder habt."
+            }
+        }
+    }
+}

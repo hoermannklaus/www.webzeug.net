@@ -1,24 +1,36 @@
+<?php
+require __DIR__ . '/vendor/autoload.php';
+
+$i18n = new i18n('lang/lang_{LANGUAGE}.json', 'langcache/', 'de');
+$i18n->init();
+
+$version = WwwWebzeugNet\ApplicationVersion::get();
+$language = $i18n->getAppliedLang();
+?>
+
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="UTF-8">
-    <title>Webzeug.net - Die Website von Klaus Hörmann-Engl</title>
+    <title><?php echo L::domain . " - " . L::appTitle; ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.css" type="text/css">
     <script src="vendor/components/jquery/jquery.js"></script>
     <script src="vendor/twbs/bootstrap/dist/js/bootstrap.js"></script>
     <script src="external/fontawesome5/all.js"></script>
-  </head>
-  <body>
+</head>
+<body>
     <div class="container">
         <div class="row">
             <div class="col">
                 <div class="jumbotron text-center mt-5">
-                    <h1>webzeug.net</h1>
-                    <p class="lead">Willkommen auf meiner Website <strong>webzeug.net</strong>. <br> Mein Name ist Klaus Hörmann-Engl. Ich bin Webentwickler und das ist mein Web-Zeug.</p>
-                    <hr class="my-4">
-                    <p>Hier findet ihr die verschiedensten Projekte an denen ich so bastle. Würde mich freuen wenn ihr euch davon etwas anseht.</p>
+                    <h1>
+                        <?php echo L::startpage_header; ?>
+                    </h1>
+                    <p>
+                        <?php echo L::startpage_introtext; ?>
+                    </p>
                 </div>
             </div>
         </div>
@@ -31,8 +43,8 @@
                             <img src="assets/images/klaus.png" class="card-img-top" alt="Bild von mir (Klaus)" />
                         </a>
                         <div class="card-body">
-                            <h5 class="card-title text-primary">Über mich</h5>
-                            <p class="card-text">Hier könnt ihr etwas mehr über mich erfahren. Was mich interessiert und was ich so mache.</p>
+                            <h5 class="card-title text-primary"><?php echo L::startpage_cards_klaus_header; ?></h5>
+                            <p class="card-text"><?php echo L::startpage_cards_klaus_text; ?></p>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">
@@ -46,8 +58,8 @@
                             <img src="assets/images/rechnen.png" class="card-img-top" alt="Screenshot von Math Arbeitsblatt" />
                         </a>
                         <div class="card-body">
-                            <h5 class="card-title text-primary">Mathe Arbeitsblätter</h5>
-                            <p class="card-text">Ein Generator für Mathe Arbeitsblätter. Ihr könnt hier Arbeitsblätter mit Grundrechnungsarten ausdrucken. Super wenn Ihr Volkschulkinder habt.</p>
+                            <h5 class="card-title text-primary"><?php echo L::startpage_cards_rechnen_header; ?></h5>
+                            <p class="card-text"><?php echo L::startpage_cards_rechnen_text; ?></p>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">
@@ -66,6 +78,7 @@
                 </div>
             </div>
         </div>
+        <?php require_once('./assets/partials/imprint.php'); ?>
     </div>
-  </body>
+</body>
 </html>
