@@ -11,18 +11,14 @@ $language = $i18n->getAppliedLang();
 <!DOCTYPE html>
 <html>
 <head>
-    <?php require_once('./assets/partials/gtmHead.php'); ?>
+    <?php require_once('./includes/gtmHead.php'); ?>
     <meta charset="UTF-8">
     <title><?php echo L::domain . " - " . L::appTitle; ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.css" type="text/css">
-    <script src="external/jquery/jquery-3.4.1.min.js"></script>
-    <script src="vendor/twbs/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="external/fontawesome5/all.js"></script>
+    <?php require_once('./includes/headerIncludes.php'); ?>
 </head>
 <body>
-    <?php require_once('./assets/partials/gtmBody.php'); ?>
+    <?php require_once('./includes/gtmBody.php'); ?>
     <div class="container">
         <div class="row">
             <div class="col">
@@ -102,7 +98,7 @@ $language = $i18n->getAppliedLang();
                 </div>
             </div>
         </div>
-        <?php require_once('./assets/partials/imprint.php'); ?>
+        <?php require_once('./includes/imprint.php'); ?>
     </div>
 </body>
 </html>
