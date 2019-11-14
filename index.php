@@ -22,7 +22,7 @@ $language = $i18n->getAppliedLang();
     <div class="container">
         <div class="row">
             <div class="col">
-                <div class="jumbotron text-center mt-5">
+                <div class="jumbotron text-center mt-5 bg-secondary text-white">
                     <h1>
                         <?php echo L::startpage_header; ?>
                     </h1>
@@ -52,7 +52,7 @@ $language = $i18n->getAppliedLang();
                     </div>
                     <!-- Rechnen -->
                     <div class="card">
-                        <a href="https://rechnen.webzeug.net" target="_blank" title="<?php echo L::startpage_cards_rechnen_title; ?>">
+                        <a href="https://rechnen.webzeug.net" target="_blank" class="bg-secondary" title="<?php echo L::startpage_cards_rechnen_title; ?>">
                             <img src="assets/images/rechnen.png" class="card-img-top" alt="Screenshot von Math Arbeitsblatt" />
                         </a>
                         <div class="card-body">
@@ -82,7 +82,7 @@ $language = $i18n->getAppliedLang();
                     </div>
                     <!-- Youtube -->
                     <div class="card">
-                        <a href="https://www.youtube.com/channel/UCFgFHKwM1xvTp7vLoz91d1g" target="_blank" title="<?php echo L::startpage_cards_youtube_title; ?>">
+                        <a href="https://www.youtube.com/channel/UCFgFHKwM1xvTp7vLoz91d1g" target="_blank" class="bg-secondary" title="<?php echo L::startpage_cards_youtube_title; ?>">
                             <img src="assets/images/youtube.png" class="card-img-top" alt="Farbige Punkte" />
                         </a>
                         <div class="card-body">
