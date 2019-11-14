@@ -13,8 +13,14 @@ $language = $i18n->getAppliedLang();
 <head>
     <?php require_once('./includes/gtmHead.php'); ?>
     <meta charset="UTF-8">
-    <title><?php echo L::domain . " - " . L::appTitle; ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+
+    <!-- Meta information -->
+    <title><?php echo L::appTitle . " - " . L::domain; ?></title>
+    <meta name="description" content="<?php echo L::description; ?>">
+	<meta name="author" content="Klaus Hörmann-Engl<klaus@webzeug.net>">
+
+    <!-- Header includes -->
     <?php require_once('./includes/headerIncludes.php'); ?>
 </head>
 <body>

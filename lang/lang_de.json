@@ -1,6 +1,7 @@
 {
     "domain": "webzeug.net",
     "appTitle": "Die Website von Klaus Hörmann-Engl",
+    "description": "Willlkommen auf der Website von Klaus Hörmann-Engl. Hier könnt ihr in die verschiedenen Bereiche wechseln.",
     "startpage": {
         "header": "Willkommen auf webzeug.net",
         "introtext": "Mein Name ist <strong>Klaus Hörmann-Engl</strong>. Ich bin Webentwickler, und das ist mein <strong>Web Zeug</strong>.",

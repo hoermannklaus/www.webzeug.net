@@ -1,6 +1,7 @@
 {
     "domain": "webzeug.net",
     "appTitle": "Website of Klaus Hörmann-Engl",
+    "description": "Welcome to the website of Klaus Hörmann-Engl. From here you can jump to the various subdomains.",
     "startpage": {
         "header": "Welcome to webzeug.net",
         "introtext": "My name is <strong>Klaus Hörmann-Engl</strong>. I am web developer, and this is my <strong>Web Zeug</strong> (web stuff).",
