@@ -43,7 +43,7 @@ $language = $i18n->getAppliedLang();
                 <div class="card-deck">
                     <!-- Klaus -->
                     <div class="card">
-                        <a href="https://klaus.webzeug.net" target="_blank" title="<?php echo L::startpage_cards_klaus_title; ?>">
+                        <a href="https://klaus.webzeug.net" class="klaus-link" target="_blank" title="<?php echo L::startpage_cards_klaus_title; ?>">
                             <img src="assets/images/klaus.png" class="card-img-top" alt="Bild von mir (Klaus)" />
                         </a>
                         <div class="card-body">
@@ -52,13 +52,13 @@ $language = $i18n->getAppliedLang();
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">
-                                <a href="https://klaus.webzeug.net" target="_blank" title="<?php echo L::startpage_cards_klaus_title; ?>">https://klaus.webzeug.net</a>
+                                <a href="https://klaus.webzeug.net" target="_blank" class="klaus-link" title="<?php echo L::startpage_cards_klaus_title; ?>">https://klaus.webzeug.net</a>
                             </small>
                         </div>
                     </div>
                     <!-- Rechnen -->
                     <div class="card">
-                        <a href="https://rechnen.webzeug.net" target="_blank" class="bg-secondary" title="<?php echo L::startpage_cards_rechnen_title; ?>">
+                        <a href="https://rechnen.webzeug.net" target="_blank" class="rechnen-link bg-secondary" title="<?php echo L::startpage_cards_rechnen_title; ?>">
                             <img src="assets/images/rechnen.png" class="card-img-top" alt="Screenshot von Math Arbeitsblatt" />
                         </a>
                         <div class="card-body">
@@ -67,13 +67,13 @@ $language = $i18n->getAppliedLang();
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">
-                                <a href="https://rechnen.webzeug.net" target="_blank" title="<?php echo L::startpage_cards_rechnen_title; ?>">https://rechnen.webzeug.net</a>
+                                <a href="https://rechnen.webzeug.net" target="_blank" class="rechnen-link" title="<?php echo L::startpage_cards_rechnen_title; ?>">https://rechnen.webzeug.net</a>
                             </small>
                         </div>
                     </div>
                     <!-- Piviz -->
                     <div class="card">
-                        <a href="https://piviz.webzeug.net" target="_blank" title="<?php echo L::startpage_cards_piviz_title; ?>">
+                        <a href="https://piviz.webzeug.net" target="_blank" class="piviz-link" title="<?php echo L::startpage_cards_piviz_title; ?>">
                             <img src="assets/images/piviz.png" class="card-img-top" alt="Farbige Punkte" />
                         </a>
                         <div class="card-body">
@@ -82,13 +82,13 @@ $language = $i18n->getAppliedLang();
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">
-                                <a href="https://piviz.webzeug.net" target="_blank" title="<?php echo L::startpage_cards_piviz_title; ?>">https://piviz.webzeug.net</a>
+                                <a href="https://piviz.webzeug.net" target="_blank" class="piviz-link" title="<?php echo L::startpage_cards_piviz_title; ?>">https://piviz.webzeug.net</a>
                             </small>
                         </div>
                     </div>
                     <!-- Youtube -->
                     <div class="card">
-                        <a href="https://www.youtube.com/channel/UCFgFHKwM1xvTp7vLoz91d1g" target="_blank" class="bg-secondary" title="<?php echo L::startpage_cards_youtube_title; ?>">
+                        <a href="https://www.youtube.com/channel/UCFgFHKwM1xvTp7vLoz91d1g" target="_blank" class="youtube-link bg-secondary" title="<?php echo L::startpage_cards_youtube_title; ?>">
                             <img src="assets/images/youtube.png" class="card-img-top" alt="Farbige Punkte" />
                         </a>
                         <div class="card-body">
@@ -97,7 +97,7 @@ $language = $i18n->getAppliedLang();
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">
-                                <a href="https://www.youtube.com/channel/UCFgFHKwM1xvTp7vLoz91d1g" target="_blank" title="<?php echo L::startpage_cards_youtube_title; ?>">https://www.youtube.com/</a>
+                                <a href="https://www.youtube.com/channel/UCFgFHKwM1xvTp7vLoz91d1g" target="_blank" class="youtube-link" title="<?php echo L::startpage_cards_youtube_title; ?>">https://www.youtube.com/</a>
                             </small>
                         </div>
                     </div>
