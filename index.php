@@ -43,7 +43,7 @@ $language = $i18n->getAppliedLang();
                 <div class="card-deck">
                     <!-- Klaus -->
                     <div class="card">
-                        <a href="https://klaus.webzeug.net" class="klaus-link" target="_blank" title="<?php echo L::startpage_cards_klaus_title; ?>">
+                        <a href="https://blog.webzeug.net" class="klaus-link" target="_blank" title="<?php echo L::startpage_cards_klaus_title; ?>">
                             <img src="assets/images/klaus.png" class="card-img-top" alt="Bild von mir (Klaus)" />
                         </a>
                         <div class="card-body">
@@ -52,7 +52,7 @@ $language = $i18n->getAppliedLang();
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">
-                                <a href="https://klaus.webzeug.net" target="_blank" class="klaus-link" title="<?php echo L::startpage_cards_klaus_title; ?>">https://klaus.webzeug.net</a>
+                                <a href="https://blog.webzeug.net" target="_blank" class="klaus-link" title="<?php echo L::startpage_cards_klaus_title; ?>">https://blog.webzeug.net</a>
                             </small>
                         </div>
                     </div>

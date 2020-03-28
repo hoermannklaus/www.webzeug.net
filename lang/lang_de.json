@@ -7,9 +7,9 @@
         "introtext": "Mein Name ist <strong>Klaus Hörmann-Engl</strong>. Ich bin Webentwickler, und das ist mein <strong>Web Zeug</strong>.",
         "cards": {
             "klaus": {
-                "header": "Über mich",
-                "text": "Hier könnt ihr etwas mehr über mich erfahren. Was mich interessiert und über meine Projekte.",
-                "title": "Mehr über mich erfahren"
+                "header": "Mein blog",
+                "text": "In meinem Blog schreibe ich über Projekte an denen ich mitgewirkt habe, sowie Dinge meines Interesses.",
+                "title": "Hier gehts zu meinem Blog"
             },
             "rechnen": {
                 "header": "Mathe Arbeitsblätter",
